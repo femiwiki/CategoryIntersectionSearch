@@ -3,5 +3,7 @@
 		"authors": []
 	},
 	"categoryintersectionsearch": "교집합 분류 검색",
-	"categoryintersectionsearch-desc": "여러 분류를 한꺼번에 검색합니다."
+	"categoryintersectionsearch-desc": "여러 분류를 한꺼번에 검색합니다.",
+	"categoryintersectionsearch-noinput": "검색어를 입력해 주세요.",
+	"categoryintersectionsearch-page-title": "\"$1\" 분류"
 }

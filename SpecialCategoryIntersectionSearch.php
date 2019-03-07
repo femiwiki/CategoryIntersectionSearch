@@ -17,14 +17,14 @@ class SpecialCategoryIntersectionSearch extends SpecialPage {
 		$this->setHeaders();
 
 		if ( $par == '' ) {
-			$output->addWikitext( '검색어를 입력해 주세요.' );
+			$output->addWikitext( $this->msg( 'categoryintersectionsearch-noinput' ) );
 			return;
 		}
 		$titleParam = str_replace( '_', ' ', $par );
 		$this->splitPar( $titleParam );
 
 		if ( count( $this->categories ) === 0 && count( $this->exCategories ) > 0 ) {
-			$output->addWikitext( '검색어를 입력해 주세요.' );
+			$output->addWikitext( $this->msg( 'categoryintersectionsearch-noinput' ) );
 			return;
 		} elseif ( count( $this->categories ) < 2 && count( $this->exCategories ) == 0 ) {
 			$output->redirect( Title::newFromText( 'Category:' . $titleParam )->getFullURL() );
@@ -35,7 +35,8 @@ class SpecialCategoryIntersectionSearch extends SpecialPage {
 		if ( count( $this->exCategories ) !== 0 ) {
 			$title .= ', -"' . implode( '", -"', $this->exCategories );
 		}
-		$output->setPageTitle( '"' . $title . '" 분류 ' );
+
+		$output->setPageTitle( $this->msg( 'categoryintersectionsearch-page-title', $title ) );
 
 		// 여기서 아래는 mediawiki 1.27.1의 CategoryViewer.php과 동일
 		$oldFrom = $request->getVal( 'from' );

@@ -3,5 +3,7 @@
     "authors": []
   },
   "categoryintersectionsearch": "CategoryIntersection Search",
-  "categoryintersectionsearch-desc": "{{desc|what=extension|name=UnifiedExtensionForFemiwiki}}"
+  "categoryintersectionsearch-desc": "{{desc|what=extension|name=UnifiedExtensionForFemiwiki}}",
+  "categoryintersectionsearch-noinput": "",
+  "categoryintersectionsearch-page-title": ""
 }

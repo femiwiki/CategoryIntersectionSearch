@@ -1,7 +1,9 @@
 {
 	"@metadata": {
 		"authors": []
-	}, 
+	},
 	"categoryintersectionsearch": "CategoryIntersection Search",
-	"categoryintersectionsearch-desc": "Add [[Special:CategoryIntersectionSearch]]"
+	"categoryintersectionsearch-desc": "Add [[Special:CategoryIntersectionSearch]]",
+	"categoryintersectionsearch-noinput": "Please enter a search term.",
+	"categoryintersectionsearch-page-title": "\"$1\" category"
 }
