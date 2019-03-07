@@ -1,13 +1,13 @@
 <?php
 
-$specialPageAliases = array();
+$specialPageAliases = [];
 
 /** English (English) */
-$specialPageAliases['en'] = array(
-	'CategoryIntersectionSearch' => array( 'IntersectionSearch' )
-);
+$specialPageAliases['en'] = [
+	'CategoryIntersectionSearch' => [ 'IntersectionSearch' ]
+];
 
 /** Korean (한국어) */
-$specialPageAliases['ko'] = array(
-	'CategoryIntersectionSearch' => array( '교집합분류검색' )
-);
+$specialPageAliases['ko'] = [
+	'CategoryIntersectionSearch' => [ '교집합분류검색' ]
+];

@@ -15,7 +15,8 @@
 	},
 	"AutoloadClasses": {
 		"SpecialCategoryIntersectionSearch": "SpecialCategoryIntersectionSearch.php",
-		"CategoryIntersectionSearchHooks": "CategoryIntersectionSearch.hooks.php"
+		"CategoryIntersectionSearchViewer": "CategoryIntersectionSearchViewer.php",
+		"CategoryIntersectionSearchHooks": "CategoryIntersectionSearchHooks.php"
 	},
 	"MessagesDirs": {
 		"CategoryIntersectionSearch": [
