@@ -3,7 +3,7 @@
     "authors": []
   },
   "categoryintersectionsearch": "CategoryIntersection Search",
-  "categoryintersectionsearch-desc": "{{desc|what=extension|name=UnifiedExtensionForFemiwiki}}",
-  "categoryintersectionsearch-noinput": "",
-  "categoryintersectionsearch-page-title": ""
+  "categoryintersectionsearch-desc": "{{desc|what=extension|name=CategoryIntersectionSearch}}",
+  "categoryintersectionsearch-noinput": "Error message",
+  "categoryintersectionsearch-page-title": "Title of the [[Special:IntersectionSearch]] page."
 }
