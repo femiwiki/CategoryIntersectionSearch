@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"categoryintersectionsearch": "CategoryIntersection 搜尋",
+	"categoryintersectionsearch-desc": "新增 [[Special:CategoryIntersectionSearch]]",
+	"categoryintersectionsearch-noinput": "請輸入搜尋項。",
+	"categoryintersectionsearch-page-title": "「$1」分類"
+}

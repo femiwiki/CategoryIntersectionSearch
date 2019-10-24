@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira"
+		]
+	},
+	"categoryintersectionsearch": "Pesquisa de intersecção de categorias",
+	"categoryintersectionsearch-desc": "Adicionar [[Special:CategoryIntersectionSearch]]",
+	"categoryintersectionsearch-noinput": "Por favor, digite um termo para pesquisar.",
+	"categoryintersectionsearch-page-title": "Categoria \"$1\""
+}

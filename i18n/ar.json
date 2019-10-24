@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"ديفيد"
+		]
+	},
+	"categoryintersectionsearch": "بحث تقاطع التصنيفات",
+	"categoryintersectionsearch-desc": "إضافة [[Special:CategoryIntersectionSearch]]",
+	"categoryintersectionsearch-noinput": "الرجاء إدخال مصطلح البحث.",
+	"categoryintersectionsearch-page-title": "تصنيف $1"
+}

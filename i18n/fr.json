@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Verdy p"
+		]
+	},
+	"categoryintersectionsearch": "Recherche d’intersection de catégories",
+	"categoryintersectionsearch-desc": "Ajoute la page [[Special:CategoryIntersectionSearch|Spécial:Recherche d’intersection de catégories]]",
+	"categoryintersectionsearch-noinput": "Veuillez saisir un terme de recherche.",
+	"categoryintersectionsearch-page-title": "Catégorie « $1 »"
+}

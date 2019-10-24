@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"categoryintersectionsearch": "CategoryIntersection Search",
+	"categoryintersectionsearch-desc": "Aggiunge [[Special:CategoryIntersectionSearch]]",
+	"categoryintersectionsearch-noinput": "Pe piacere mitte 'nu termine de recerche.",
+	"categoryintersectionsearch-page-title": "Categorije \"$1\""
+}

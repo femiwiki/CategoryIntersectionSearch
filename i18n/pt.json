@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu"
+		]
+	},
+	"categoryintersectionsearch": "Pesquisa de intersecção de categorias",
+	"categoryintersectionsearch-desc": "Add [[Special:CategoryIntersectionSearch|Especial:Pesquisa de intersecção de categorias]]",
+	"categoryintersectionsearch-noinput": "Introduza um termo de pesquisa, por favor.",
+	"categoryintersectionsearch-page-title": "Categoria \"$1\""
+}

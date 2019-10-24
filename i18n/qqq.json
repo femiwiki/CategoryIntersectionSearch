@@ -1,9 +1,7 @@
 {
-  "@metadata": {
-    "authors": []
-  },
-  "categoryintersectionsearch": "CategoryIntersection Search",
-  "categoryintersectionsearch-desc": "{{desc|what=extension|name=CategoryIntersectionSearch}}",
-  "categoryintersectionsearch-noinput": "Error message",
-  "categoryintersectionsearch-page-title": "Title of the [[Special:IntersectionSearch]] page."
+	"@metadata": [],
+	"categoryintersectionsearch": "CategoryIntersection Search",
+	"categoryintersectionsearch-desc": "{{desc|what=extension|name=CategoryIntersectionSearch}}",
+	"categoryintersectionsearch-noinput": "Error message",
+	"categoryintersectionsearch-page-title": "Title of the [[Special:IntersectionSearch]] page."
 }
