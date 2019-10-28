@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06",
+			"Vlad5250"
+		]
+	},
+	"categoryintersectionsearch": "Пребарување со „Пресек на категории“",
+	"categoryintersectionsearch-desc": "Додај го [[Special:CategoryIntersectionSearch]]",
+	"categoryintersectionsearch-noinput": "Внесете поим за пребарување.",
+	"categoryintersectionsearch-page-title": "Категорија „$1“"
+}

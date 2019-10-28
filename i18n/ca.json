@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jlrb+"
+		]
+	},
+	"categoryintersectionsearch-desc": "Afegeix [[Special:CategoryIntersectionSearch]]",
+	"categoryintersectionsearch-noinput": "Entra un terme de cerca.",
+	"categoryintersectionsearch-page-title": "Categoria $1"
+}
