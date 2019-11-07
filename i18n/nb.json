@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"categoryintersectionsearch": "Kategoriskjæringspunktsøk",
+	"categoryintersectionsearch-desc": "Legg til [[Special:CategoryIntersectionSearch]]",
+	"categoryintersectionsearch-noinput": "Skriv inn et søkebegrep.",
+	"categoryintersectionsearch-page-title": "Kategorien «$1»"
+}
