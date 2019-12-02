@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ата"
+		]
+	},
+	"categoryintersectionsearch": "Пошук перетину категорій",
+	"categoryintersectionsearch-desc": "Додати [[Special:CategoryIntersectionSearch]]",
+	"categoryintersectionsearch-noinput": "Будь ласка, введіть умову пошуку.",
+	"categoryintersectionsearch-page-title": "Категорія «$1»"
+}
