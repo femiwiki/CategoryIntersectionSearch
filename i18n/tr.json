@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK"
+		]
+	},
+	"categoryintersectionsearch": "CategoryIntersection Arama",
+	"categoryintersectionsearch-desc": "[[Special:CategoryIntersectionSearch]] ekle",
+	"categoryintersectionsearch-noinput": "Lütfen bir arama terimi girin.",
+	"categoryintersectionsearch-page-title": "\"$1\" kategori"
+}
