@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"categoryintersectionsearch": "CategoryIntersection Search",
 	"categoryintersectionsearch-desc": "{{desc|what=extension|name=CategoryIntersectionSearch}}",
 	"categoryintersectionsearch-noinput": "Error message",
