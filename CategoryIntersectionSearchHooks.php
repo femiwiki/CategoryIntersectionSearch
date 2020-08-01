@@ -16,10 +16,10 @@ class CategoryIntersectionSearchHooks {
 		$title = Title::newFromText( 'category:' . $term );
 		if ( $title === null ) {
 			return true;
-  } elseif ( $title->exists() ) {
+		} elseif ( $title->exists() ) {
 			$output->redirect( $title->getFullURL() );
 			return false;
-  }
+		}
 
 		$categories = self::splitTerm( $term );
 		if ( $categories !== null ) {
@@ -38,6 +38,7 @@ class CategoryIntersectionSearchHooks {
 
 	/**
 	 * @param string $term
+	 * @return array|null
 	 */
 	private static function splitTerm( $term ) {
 		if ( strpos( $term, "," ) === false ) {
@@ -46,11 +47,13 @@ class CategoryIntersectionSearchHooks {
 
 		$categories = explode( ",", $term );
 		foreach ( $categories as $value ) {
-			if ( strpos( $value, "/" ) === false ) { return null;
+			if ( strpos( $value, "/" ) === false ) {
+				return null;
 			}
 			$value = trim( $value );
 			$pos = strrchr( $value, ":" );
-			if ( $pos !== false ) { $value = substr( $pos, 1 );
+			if ( $pos !== false ) {
+				$value = substr( $pos, 1 );
 			}
 		}
 

@@ -4,14 +4,14 @@ class CategoryIntersectionSearchViewer extends CategoryTreeCategoryViewer {
 	/**
 	 * @param Title $title
 	 * @param IContextSource $context
+	 * @param array $categories
+	 * @param array $exCategories
 	 * @param array $from An array with keys page, subcat,
 	 *        and file for offset of results of each section (since 1.17)
 	 * @param array $until An array with 3 keys for until of each section (since 1.17)
 	 * @param array $query
-	 * @param array $categories
-	 * @param array $exCategories
 	 */
-	public function __construct( $title, IContextSource $context, $from = [], $until = [], $query = [], $categories, $exCategories ) {
+	public function __construct( $title, IContextSource $context, $categories, $exCategories, $from = [], $until = [], $query = [] ) {
 		$this->categories = $categories;
 		$this->exCategories = $exCategories;
 		parent::__construct( $title, $context, $from, $until, $query );
@@ -64,6 +64,7 @@ class CategoryIntersectionSearchViewer extends CategoryTreeCategoryViewer {
 			}
 			// 위에서 여기까지는 mediawiki 1.27.1의 CategoryViewer.php의 doCategoryQuery()과 동일
 
+			// phpcs:disable MediaWiki.Usage.DbrQueryUsage.DbrQueryFound
 			$res = $dbr->query(
 				"SELECT DISTINCT page_id, page_title, page_namespace, page_len, page_is_redirect, " .
 					"cat_id, cat_title, cat_subcats, cat_pages, cat_files, " .
@@ -83,8 +84,9 @@ class CategoryIntersectionSearchViewer extends CategoryTreeCategoryViewer {
 				"WHERE " . $dbr->makeList( $extraConds, LIST_AND ) . " " .
 					'LIMIT ' . ( $this->limit + 1 ) . " ",
 					'ORDER BY ' . ( $this->flip[$type] ? 'cl_sortkey DESC' : 'cl_sortkey' ),
-				 __METHOD__
+					__METHOD__
 				);
+			// phpcs:enable
 
 			// 여기서부터 아래는 mediawiki 1.27.1의 CategoryViewer.php의 doCategoryQuery()과 동일
 			Hooks::run( 'CategoryViewer::doCategoryQuery', [ $type, $res ] );

@@ -63,11 +63,11 @@ class SpecialCategoryIntersectionSearch extends SpecialPage {
 		$viewer = new CategoryIntersectionSearchViewer(
 			Title::newFromText( $title ),
 			$this->getContext(),
+			$this->categories,
+			$this->exCategories,
 			$from,
 			$until,
-			$reqArray,
-			$this->categories,
-			$this->exCategories
+			$reqArray
 		);
 		$output->addHTML( $viewer->getHTML() );
 	}
@@ -79,12 +79,12 @@ class SpecialCategoryIntersectionSearch extends SpecialPage {
 		$par = explode( ",", $par );
 		$count = count( $par );
 		if ( $count === 1 ) {
-			return null;
+			return;
 		}
 
 		for ( $i = 0; $i < $count; $i++ ) {
 			if ( strpos( $par[$i], "/" ) === false ) {
-				return null;
+				return;
 			}
 			$par[$i] = trim( $par[$i] );
 			$pos = strrchr( $par[$i], ":" );
